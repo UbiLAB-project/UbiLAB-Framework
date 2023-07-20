@@ -1,0 +1,76 @@
+#title{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 10%;
+	width: 100%;
+	box-shadow: 0 -2px 10px black;
+}
+
+#title h1{
+	margin: 0;
+	padding: 0;
+}
+
+#title h1 .highlightBlue{
+	color: #0088c2;
+}
+
+#labs{
+	display: flex;
+	justify-content: center;
+	height: 90%;
+	width: 100%;
+}
+
+#labs .container{
+	display: block;
+	width: 40%;
+	height: 100%;
+}
+
+#labs a{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 14%;
+	width: 98%;
+	margin: 2%;
+	padding: 2% 0% 2% 0%;
+	border: 1px solid #0088c2;
+	border-radius: 20px;
+}
+
+#labs a:hover{
+	background: #0088c221;
+}
+
+#labs a .img-wrapper{
+	height: 100%;
+	border-radius: 18px;
+	margin: 0 5% 0 5%;
+}
+
+#labs a .img-wrapper img{
+	height: 100%;
+	object-fit: cover;
+	border-radius: inherit;
+}
+
+#labs a h1{
+	font-size: 20px;
+	margin: 0 5% 0 5%;
+}
+
+/* For mobile phones: */
+@media screen and (max-width: 1363px){
+	#labs .container{
+		width: 55%;
+	}
+}
+
+@media screen and (max-width: 865px){
+	#labs .container{
+		width: 90%;
+	}
+}
